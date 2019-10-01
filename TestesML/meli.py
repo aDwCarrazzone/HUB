@@ -79,7 +79,7 @@ class Meli(object):
                 # response code isn't a 200; raise an exception
                 response.raise_for_status()
         else:
-            raise Exception, "Offline-Access is not allowed."
+            raise Exception("Offline-Access is not allowed.")
 
     # REQUEST METHODS
     def get(self, path, params=None, extra_headers=None):

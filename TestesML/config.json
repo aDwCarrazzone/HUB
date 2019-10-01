@@ -2,6 +2,8 @@
   "TestDevelopers": {
     "app_id": "8786283849719360",
     "secret_key": "ba1RWvwNc4OErGvG4Wt27dLmfgHRrFAs",
-    "redirect_uri": "https://localhost:8080"
+    "redirect_uri": "https://localhost:8080",
+    "username": "testers.developer@gmail.com",
+    "password": "developersi2019"
   }
 }
