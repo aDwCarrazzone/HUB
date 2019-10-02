@@ -1,6 +1,7 @@
 import json
 import requests
-import meli
+
+#Por enquanto, o programa consegue pegar o access_token e com ele retornar as informações do usuario
 
 header = json.load(open('config.json'))
 client_id = header['TestDevelopers']['app_id']
@@ -9,27 +10,27 @@ redirect_uri = header['TestDevelopers']['redirect_uri']
 
 class MercadoLivreService:
     def getCode(self):
-        ml = meli.Meli(client_id=client_id, client_secret=client_secret)
-        req = requests.get('https://auth.mercadolivre.com.br/authorization', 'response_type=code&client_id='+client_id)
-        #ml.authorize(req, redirect_uri)
-        return ml.auth_url(redirect_URI=redirect_uri)
+        #TO DO: implementar nesse método a URL de redirecionamento certa e pegar o CODE contido nessa url
+        #passando ele para o método getAccessToken
+        req = requests.get('https://auth.mercadolivre.com.br/authorization?response_type=code&client_id='+client_id)
+        response = req.url
+        return response
 
-    # def getAccessToken(self):
-    #     redirect_uri = header['TestDevelopers']['redirect_uri']
-    #     req = requests.get("api.mercadolibre.com/oauth/token?grant_type=authorization_code&client_id="+client_id+"&client_secret="+client_secret+"&code=TG-5d8834c6b2852d00064e9cc3-471765183&redirect_uri="+redirect_uri)
-    #     response = req.content
-    #     data = response.
-    #     token = json.loads(data)
-    #
-    #     if response.getcode() == 200:
-    #         return str(token["access_token"])
-    #     elif response.getcode() == 400:
-    #         return str(token['message'])
+    def getAccessToken(self, code: str):
+        redirect_uri = header['TestDevelopers']['redirect_uri']
+        params = {'grant_type': 'authorization_code', 'client_id': client_id, 'client_secret': client_secret, 'code': code, 'redirect_uri': redirect_uri}
+        req = requests.post('https://api.mercadolibre.com/oauth/token', data=params)
+        response = req.content
+        data = json.loads(response)
 
-    # def getUser(self):
-    #     token = MercadoLivreService.getAccessToken(self)
-    #     con.request("GET", "/users/me?access_token="+token)
-    #     response = con.getresponse()
-    #     data = response.read()
-    #     user = json.loads(data)
-    #     return user
+        try:
+            return data['access_token']
+        except:
+            return data['message']
+
+    def getUser(self):
+        token = MercadoLivreService.getAccessToken(self, 'AQUI VAI O CODE GERADO')
+        req = requests.get("https://api.mercadolibre.com/users/me?access_token="+token)
+        response = req.content
+        user = json.loads(response)
+        return user
