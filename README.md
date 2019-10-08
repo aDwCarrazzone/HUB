@@ -57,5 +57,5 @@ Etapa 10: Escolha as opções finais e conclua a instalação clicando em "Concl
   
     Etapa 1: Basta usar o seguinte comando no cmd após instalar o pip: pip install fdb.
    
-    ![FDB](imgs/FDB.png?raw=true "FDB")
+![FDB](imgs/FDB.png?raw=true "FDB")
 
