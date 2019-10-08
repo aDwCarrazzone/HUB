@@ -9,7 +9,10 @@ https://github.com/FirebirdSQL/firebird/releases/download/R2_5_9/Firebird-2.5.9.
 https://github.com/FirebirdSQL/firebird/releases/download/R2_5_9/Firebird-2.5.9.27139_0_x64.exe
 
 
-Guia para instalação do Firebird:
+Guias para instalação:
+
+  Firebird:
+  
 Etapa 1: Clique em “Seguinte >”.
 
 ![WELCOME](imgs/Welcome.png?raw=true "Bem-vindo")
@@ -49,4 +52,10 @@ Etapa 9: Após a instalação leia as informações sobre a versão instalada e 
 Etapa 10: Escolha as opções finais e conclua a instalação clicando em "Concluir"
 
 ![VERSION](imgs/END.png?raw=true "Concluir")
+
+  API do Firebird para Python:
+  
+    Etapa 1: Basta usar o seguinte comando no cmd após instalar o pip: pip install fdb.
+   
+    ![FDB](imgs/FDB.png?raw=true "FDB")
 
