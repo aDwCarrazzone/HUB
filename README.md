@@ -48,5 +48,5 @@ Etapa 9: Após a instalação leia as informações sobre a versão instalada e 
 
 Etapa 10: Escolha as opções finais e conclua a instalação clicando em "Concluir"
 
-![VERSION](imgs/END.gif?raw=true "Concluir")
+![VERSION](imgs/END.png?raw=true "Concluir")
 
