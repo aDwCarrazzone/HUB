@@ -1,19 +1,29 @@
-Links para download direto.
-
-Firebird:
-
+<details><summary>Links para download direto.</summary>
+  <p>
+  
+  <details><summary>Firebird:</summary>
+  <p>
   Firebird 2.5.9 X32
 https://github.com/FirebirdSQL/firebird/releases/download/R2_5_9/Firebird-2.5.9.27139_0_Win32.exe
 
   Firebird 2.5.9 x64
 https://github.com/FirebirdSQL/firebird/releases/download/R2_5_9/Firebird-2.5.9.27139_0_x64.exe
+ </p>
+ </details>
+ 
+ <details><summary>PIP:</summary>
 
-  PIP:
 https://bootstrap.pypa.io/get-pip.py
+</p>
+</details>
 
-Guias para instalação:
+</p>
+</details>
 
-  Firebird:
+<details><summary>Guias para instalação:</summary>
+  <p>
+
+<details><summary>Firebird:</summary>
   
 Etapa 1: Clique em “Seguinte >”.
 
@@ -54,8 +64,12 @@ Etapa 9: Após a instalação leia as informações sobre a versão instalada e 
 Etapa 10: Escolha as opções finais e conclua a instalação clicando em "Concluir"
 
 ![VERSION](imgs/END.png?raw=true "Concluir")
+</p>
+</details>
 
-  PIP:
+
+  <details><summary>PIP:</summary>
+  <p>
   
   Etapa 1: Fazer download do codigo em python;
   
@@ -72,10 +86,17 @@ Etapa 10: Escolha as opções finais e conclua a instalação clicando em "Concl
   Etapa 4: Checar a versão instalada.
 
   ![ver-pip](img/ver-pip.png?raw=true "ver-pip")
+</p>
+</details>
 
-  API do Firebird para Python:
+  <details><summary>API do Firebird para Python:</summary>
+  <p>
   
     Etapa 1: Basta usar o seguinte comando no cmd após instalar o pip: pip install fdb.
    
 ![FDB](imgs/FDB.png?raw=true "FDB")
+</p>
+</details>
 
+</p>
+</details>
