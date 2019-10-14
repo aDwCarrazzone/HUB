@@ -8,6 +8,8 @@ https://github.com/FirebirdSQL/firebird/releases/download/R2_5_9/Firebird-2.5.9.
   Firebird 2.5.9 x64
 https://github.com/FirebirdSQL/firebird/releases/download/R2_5_9/Firebird-2.5.9.27139_0_x64.exe
 
+  PIP:
+https://bootstrap.pypa.io/get-pip.py
 
 Guias para instalação:
 
@@ -52,6 +54,24 @@ Etapa 9: Após a instalação leia as informações sobre a versão instalada e 
 Etapa 10: Escolha as opções finais e conclua a instalação clicando em "Concluir"
 
 ![VERSION](imgs/END.png?raw=true "Concluir")
+
+  PIP:
+  
+  Etapa 1: Fazer download do codigo em python;
+  
+  ![download-get-pip](img/download-get-pip.png?raw=true "download-get-pip")
+  
+  Etapa 2: Abrir uma janela de comando no diretorio do codigo;
+  
+  ![cmd-get-pip](img/cmd-get-pip.png?raw=true "cmd-get-pip")
+  
+  Etapa 3: Executar o codigo;
+  
+  ![run-get-pip](img/run-get-pip.png?raw=true "run-get-pip")
+  
+  Etapa 4: Checar a versão instalada.
+
+  ![ver-pip](img/ver-pip.png?raw=true "ver-pip")
 
   API do Firebird para Python:
   
