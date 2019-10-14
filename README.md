@@ -73,19 +73,19 @@ Etapa 10: Escolha as opções finais e conclua a instalação clicando em "Concl
   
   Etapa 1: Fazer download do codigo em python;
   
-  ![download-get-pip](img/download-get-pip.PNG?raw=true "download-get-pip")
+  ![download-get-pip](imgs/download-get-pip.PNG?raw=true "download-get-pip")
   
   Etapa 2: Abrir uma janela de comando no diretorio do codigo;
   
-  ![cmd-get-pip](img/cmd-get-pip.png?raw=true "cmd-get-pip")
+  ![cmd-get-pip](imgs/cmd-get-pip.png?raw=true "cmd-get-pip")
   
   Etapa 3: Executar o codigo;
   
-  ![run-get-pip](img/run-get-pip.PNG?raw=true "run-get-pip")
+  ![run-get-pip](imgs/run-get-pip.PNG?raw=true "run-get-pip")
   
   Etapa 4: Checar a versão instalada.
 
-  ![ver-pip](img/ver-pip.PNG?raw=true "ver-pip")
+  ![ver-pip](imgs/ver-pip.PNG?raw=true "ver-pip")
 </p>
 </details>
 
