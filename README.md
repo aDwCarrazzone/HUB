@@ -73,7 +73,7 @@ Etapa 10: Escolha as opções finais e conclua a instalação clicando em "Concl
   
   Gif rapida:
   
-  ![PIP](imgs/PIP.gif?raw=true "Gif PIP"
+  ![PIP](imgs/PIP.gif?raw=true "Gif PIP")
   
   Etapa 1: Fazer download do codigo em python;
   
