@@ -63,7 +63,7 @@ Etapa 9: Após a instalação leia as informações sobre a versão instalada e 
 
 Etapa 10: Escolha as opções finais e conclua a instalação clicando em "Concluir"
 
-![VERSION](imgs/END.png?raw=true "Concluir")
+![END](imgs/END.png?raw=true "Concluir")
 </p>
 </details>
 
@@ -71,21 +71,25 @@ Etapa 10: Escolha as opções finais e conclua a instalação clicando em "Concl
   <details><summary>PIP:</summary>
   <p>
   
+  Gif rapida:
+  
+  ![PIP](imgs/PIP.gif?raw=true "Gif PIP"
+  
   Etapa 1: Fazer download do codigo em python;
   
-  ![download-get-pip](imgs/download-get-pip.PNG?raw=true "download-get-pip")
+  ![download-get-pip](imgs/download-get-pip.PNG?raw=true "Download PIP")
   
   Etapa 2: Abrir uma janela de comando no diretorio do codigo;
   
-  ![cmd-get-pip](imgs/cmd-get-pip.png?raw=true "cmd-get-pip")
+  ![cmd-get-pip](imgs/cmd-get-pip.png?raw=true "CMD PIP")
   
   Etapa 3: Executar o codigo;
   
-  ![run-get-pip](imgs/run-get-pip.PNG?raw=true "run-get-pip")
+  ![run-get-pip](imgs/run-get-pip.PNG?raw=true "Executar get-pip")
   
   Etapa 4: Checar a versão instalada.
 
-  ![ver-pip](imgs/ver-pip.PNG?raw=true "ver-pip")
+  ![ver-pip](imgs/ver-pip.PNG?raw=true "Versão PIP")
 </p>
 </details>
 
