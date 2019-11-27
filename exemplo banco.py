@@ -2,7 +2,7 @@
 import fdb #instalar o driver - download firebirdsql.org
 
 #conectamos ao banco de dados
-con = fdb.connect(host='localhost', database='C:/Projetos/FIREBIRDDATA/examples.fdb',user='sysdba',password='123456')
+con = fdb.connect(host='localhost', database='C:/Projetos/FIREBIRDDATA/Besscontrol.FDB',user='sysdba',password='masterkey')
 #buscamos o cursor
 cur = con.cursor()
 #executamos o select
